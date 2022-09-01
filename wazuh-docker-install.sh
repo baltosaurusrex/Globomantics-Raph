@@ -19,4 +19,3 @@ git clone https://github.com/wazuh/wazuh-docker.git -b v4.3.7 --depth=1
 cd ./wazuh-docker/single-node
 docker-compose -f generate-indexer-certs.yml run --rm generator
 echo "####################### WAZUH INSTALLED"
-echo "running wazuh"
