@@ -1,6 +1,6 @@
 # Globomantics-Raph
 
-To install, clone the repo, give the script executable permissions, then run it.
+To install on an Ubuntu 20.04 or newer host, clone this repo, give the script executable permissions, then run it.
 This will install curl, git, Docker, Docker-Compose, and Wazuh
 
 > git clone https://github.com/baltosaurusrex/Globomantics-Raph && chmod +x wazuh-docker-install.sh && ./wazuh-docker-install.sh
@@ -9,7 +9,7 @@ Once finished, run
 
 > cd ./wazuh-docker/single-node/ && docker-compose up -d
 
-Then you can navigate to https://localhost to see the software up and running.
+Then you can navigate to https://localhost to see the software up and running. Default credentials are "admin" and "SecretPassword"
 
 Wazuh is an open source tool that combines XDR and SIEM capabilities.
 https://documentation.wazuh.com/current/getting-started/index.html
