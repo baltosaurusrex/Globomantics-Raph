@@ -20,4 +20,3 @@ cd ./wazuh-docker/single-node
 docker-compose -f generate-indexer-certs.yml run --rm generator
 echo "####################### WAZUH INSTALLED"
 echo "running wazuh"
-docker-compose up
